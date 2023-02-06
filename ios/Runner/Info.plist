@@ -2,8 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>media</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>micro</string>
+	<key>NSCameraUsageDescription</key>
+	<string>camara</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
+	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -49,5 +55,13 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSAppTransportSecurity</key>
+	<true/>
+	<key>NSAllowsArbitraryLoads</key>
+	<string></string>
+	<key>NSAllowsArbitraryLoadsInWebContent</key>
+	<true/>
+	<key>NSAllowsArbitraryLoadsForMedia</key>
+	<true/>
 </dict>
 </plist>
